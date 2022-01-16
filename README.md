@@ -22,7 +22,7 @@ CODE
 SELECT EmployeeID, MAX (EmployeeIDcount)
 FROM (SELECT EmployeeID, count(EmployeeID) EmployeeIDcount
 FROM Orders
-GROUP BY EmployeeID);
+GROUP BY EmployeeID); 
 
 SELECT LastName FROM [Employees]
 where EmployeeID=4
