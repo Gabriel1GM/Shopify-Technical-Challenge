@@ -25,6 +25,7 @@ FROM Orders
 GROUP BY EmployeeID); 
 
 SELECT LastName FROM [Employees]
+
 where EmployeeID=4
 
 EXPLANATION
