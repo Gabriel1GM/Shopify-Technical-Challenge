@@ -54,5 +54,5 @@ where ProductID=31
 EXPLANATION <br>
 The first block of code finds the customer ID's of those who live in Germany <br>
 The second block of code Finds the Order ID's the customers from Germany made <br>
-The third block Finds counts the Product ID's correlating to those Order ID's to find out which product was purchased the most <br>
-The last block of code Finds the product name associated with that Product ID
+The third block counts the Product ID's correlating to those Order ID's to find out which product was purchased the most <br>
+The last block of code Finds the product name associated with the most common product ID found in the third block of code, which was 31
