@@ -6,3 +6,5 @@ Data analysis and SQL code
 B) Another metric I would include in this data set is standard deviation of the order cost. This would give more insight as to weather the data needs further investigation in order to find answers to discrepancies such as a high AOV.
 
 C) The standard deviation of orders under $2000 is only $161, compared to the $41283 standard deviation that includes all values. This large difference should raise some concern before advancing with data analysis.
+
+<img src="2_A.png"> 
