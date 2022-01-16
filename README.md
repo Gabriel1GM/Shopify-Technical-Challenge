@@ -15,3 +15,15 @@ EXPLANTION
 Knowing that the shipper ID of Speedy Express was 1, the count function was used to keep track of "1" occurences in order to figure out how many products were sent out by that company  
 
 2.B)
+CODE
+SELECT EmployeeID, MAX (EmployeeIDcount)
+FROM (SELECT EmployeeID, count(EmployeeID) EmployeeIDcount
+FROM Orders
+GROUP BY EmployeeID);
+
+SELECT LastName FROM [Employees]
+where EmployeeID=4
+
+EXPLANATION
+The code from lines 19-22 counted the occurances of each employee ID and outputted the Employee ID with the highest occurance, this was used to find the employee with the highest number of orders
+The code from line 24-25 used the answer obtained from the previous code to find the last name of such employee
