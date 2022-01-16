@@ -10,7 +10,7 @@ C) The standard deviation of orders under $2000 is only $161, compared to the $4
 2.A)
 
 CODE
-SELECT Count(ShipperID) FROM [Orders]
+SELECT Count(ShipperID) FROM [Orders]                                                                                                    
 where ShipperID=1
 
 EXPLANTION
@@ -20,15 +20,11 @@ Knowing that the shipper ID of Speedy Express was 1, the count function was used
 CODE
 
 SELECT EmployeeID, MAX (EmployeeIDcount)
-
 FROM (SELECT EmployeeID, count(EmployeeID) EmployeeIDcount
-
 FROM Orders
-
 GROUP BY EmployeeID);
 
 SELECT LastName FROM [Employees]
-
 where EmployeeID=4
 
 EXPLANATION
