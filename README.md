@@ -27,7 +27,7 @@ GROUP BY EmployeeID);
 SELECT LastName FROM [Employees] <br>
 Where EmployeeID=4
 
-EXPLANATION
+EXPLANATION <br>
 The first block of code counted the occurances of each employee ID and outputted the Employee ID with the highest occurance, this was used to find the employee with the highest number of orders <br>
 The second block of code used the answer obtained from the previous code to find the last name of such employee
 
