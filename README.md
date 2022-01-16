@@ -24,9 +24,8 @@ FROM (SELECT EmployeeID, count(EmployeeID) EmployeeIDcount
 FROM Orders
 GROUP BY EmployeeID); 
 
-SELECT LastName FROM [Employees]
-
-where EmployeeID=4
+SELECT LastName FROM [Employees] 
+Where EmployeeID=4
 
 EXPLANATION
 The first block of code counted the occurances of each employee ID and outputted the Employee ID with the highest occurance, this was used to find the employee with the highest number of orders
