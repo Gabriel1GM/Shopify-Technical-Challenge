@@ -7,4 +7,11 @@ B) Another metric I would include in this data set is standard deviation of the 
 
 C) The standard deviation of orders under $2000 is only $161, compared to the $41283 standard deviation that includes all values. This large difference should raise some concern before advancing with data analysis.
 
-<img src="2_A.png"> 
+2.A)
+CODE
+SELECT Count(ShipperID) FROM [Orders]
+where ShipperID=1
+EXPLANTION
+Knowing that the shipper ID of Speedy Express was 1, the count function was used to keep track of "1" occurences in order to figure out how many products were sent out by that company  
+
+2.B)
